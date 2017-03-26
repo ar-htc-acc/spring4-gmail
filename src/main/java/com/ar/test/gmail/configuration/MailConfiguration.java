@@ -38,7 +38,7 @@ public class MailConfiguration {
 		SimpleMailMessage simpleMailMessage = new SimpleMailMessage();
 		
 		simpleMailMessage.setFrom("your.user.name@gmail.com");
-		simpleMailMessage.setTo("your.target.clients@gmail.com");
+		simpleMailMessage.setTo("your.target.client@gmail.com");
 		simpleMailMessage.setSubject("This is a test.");
 		simpleMailMessage.setText("This is a notice.");
 		
